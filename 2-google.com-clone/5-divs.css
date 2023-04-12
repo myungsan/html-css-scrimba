@@ -1,0 +1,17 @@
+.main{
+    margin-top: 100px;        /* From 0px and upwards   */
+}
+
+.logo-img
+{
+    display: block; /*block the whole horizontal space for only this image*/
+    width: 300px;
+}
+
+.search-input
+{
+    display: block;
+    width: 400px;
+}
+
+/*Assuming display: inline will put the elements next to each other*/

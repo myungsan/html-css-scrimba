@@ -1,0 +1,26 @@
+body {
+    margin: 0; /*default margin is 8*/
+}
+
+.red {
+    background: #c71226;
+    height: 100px;
+    width: 500px;
+    margin-top: 10;
+    margin-left: 10; /*can also add margin-bottom*/
+}
+
+.blue {
+    background: #0d1b88;
+    height: 100px;
+    width: 500px;
+    margin-left: 10;
+}
+
+.green {
+    background: #397327;
+    height: 100px;
+    width: 500px;
+    margin-left: 10;
+}
+

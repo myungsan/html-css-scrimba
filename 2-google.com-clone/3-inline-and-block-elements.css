@@ -1,0 +1,13 @@
+img
+{
+    display: block; /*block the whole horizontal space for only this image*/
+    width: 300px;
+}
+
+input
+{
+    display: block;
+    width: 400px;
+}
+
+/*Assuming display: inline will put the elements next to each other*/
