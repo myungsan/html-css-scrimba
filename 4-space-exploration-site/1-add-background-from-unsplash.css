@@ -1,0 +1,7 @@
+/* background images are inserted from css instead of html */
+
+body {
+    color: white;
+    background-image: url("/Users/myungsanyun/Documents/GitHub/html-css-scrimba/4-space-exploration-site/space.jpeg");
+    background-size: cover; /*background images matches the size of window */
+}

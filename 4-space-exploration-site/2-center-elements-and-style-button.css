@@ -1,0 +1,14 @@
+/* background images are inserted from css instead of html */
+
+body {
+    text-align: center;
+    color: white;
+    background-image: url("/Users/myungsanyun/Documents/GitHub/html-css-scrimba/4-space-exploration-site/space.jpeg");
+    background-size: cover; /*background images matches the size of window */
+}
+
+.btn {
+    padding: 6px 12px; /*first is vert, second is hor*/
+    background: white;
+    border: none;
+}
