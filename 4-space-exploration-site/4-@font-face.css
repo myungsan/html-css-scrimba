@@ -1,0 +1,8 @@
+@font-face{
+    src: url("/Users/myungsanyun/Documents/GitHub/html-css-scrimba/4-space-exploration-site/Corleone.ttf");
+    font-family: Corleone;
+}
+
+h1 {
+    font-family: Corleone;
+}
