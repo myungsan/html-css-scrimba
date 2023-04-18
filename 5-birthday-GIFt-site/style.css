@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #fefae0;
+    color: #d4a373;
+}
+
+#bella-img {
+    width: 150px;
+    border-radius: 50%;   /* roundimage */
+    border: 6px solid #ccd5ae;
+}
