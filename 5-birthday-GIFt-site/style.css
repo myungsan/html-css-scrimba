@@ -1,12 +1,36 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: #fefae0;
-    color: #d4a373;
+    background: #b8b8ff;
+    color: #f8f7ff;
+}
+
+h1, h2, h4, p {
+    text-shadow: 0px 0px 1px black; /*adding a outline of the text for readability*/
 }
 
 #bella-img {
     width: 150px;
     border-radius: 50%;   /* roundimage */
-    border: 6px solid #ccd5ae;
+    border: 6px solid #ffd8be;
+}
+
+#bday-age {
+    background: #ffd8be;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #ffd8be;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex; /*sets every element to horizontally line up, on own column*/
+    flex-direction: column; /*now change into column*/
+    align-items: center;
 }
