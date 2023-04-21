@@ -1,7 +1,8 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: #b8b8ff;
+        /* gradient */
+    background: linear-gradient(beige, lavender);
     color: #f8f7ff;
 }
 
@@ -33,4 +34,57 @@ h1, h2, h4, p {
     display: flex; /*sets every element to horizontally line up, on own column*/
     flex-direction: column; /*now change into column*/
     align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+/* The more specific is needed, put it above */
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 0 auto;
+    background-image: url("/Users/myungsanyun/Documents/GitHub/html-css-scrimba/5-birthday-GIFt-site/gift.png");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+#gift-img-happy:hover {
+    background-image: url("/Users/myungsanyun/Documents/GitHub/html-css-scrimba/5-birthday-GIFt-site/vitaliy.jpeg");
+}
+
+#gift-img-sweet:hover {
+    background-image: url("/Users/myungsanyun/Documents/GitHub/html-css-scrimba/5-birthday-GIFt-site/sweet.jpeg");
+}
+
+#gift-img-genius:hover {
+    background-image: url("/Users/myungsanyun/Documents/GitHub/html-css-scrimba/5-birthday-GIFt-site/sweet.jpeg");
+}
+
+#gift-img-nice:hover {
+    background-image: url("/Users/myungsanyun/Documents/GitHub/html-css-scrimba/5-birthday-GIFt-site/sweet.jpeg");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("/Users/myungsanyun/Documents/GitHub/html-css-scrimba/5-birthday-GIFt-site/sweet.jpeg");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40 auto 20px;
+}
+
+a {
+    color: white;
 }
