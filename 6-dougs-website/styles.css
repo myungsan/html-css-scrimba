@@ -4,6 +4,42 @@ body {
     color: #f8f7ff;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+
+}
+
+#header {
+    /* display: flex; /*sets every element to horizontally line up, on own column*/
+    /* flex-direction: column; 
+    align-items: center; */
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;}
+
+.img-bio {
+    width: 200px;
+    height: auto;
+    margin: 10px 0;
+}
+
+#bernese-mountain-dog-img:hover {
+    opacity: 0;
+    background-image: ('./bella.jpeg');
+}
+
+
+
+
 h1, h2, h4, p {
     text-shadow: 0px 0px 1px black; /*adding a outline of the text for readability*/
 }
@@ -26,16 +62,6 @@ h1, h2, h4, p {
     border-radius: 5px;
 }
 
-#header {
-    display: flex; /*sets every element to horizontally line up, on own column*/
-    flex-direction: column; /*now change into column*/
-    align-items: center;
-}
-
-.gift-section {
-    margin-top: 50px;
-}
-
 .gift-title {
     margin-bottom: 10px;
 }
@@ -45,9 +71,9 @@ h1, h2, h4, p {
     height: 200px;
 }
 
-.gift-img {
+.bella {
     margin: 0 auto;
-    background-image: url("/Users/myungsanyun/Documents/GitHub/html-css-scrimba/5-birthday-GIFt-site/gift.png");
+    background-image: url("./bernese-mountain-dog.png");
     background-size: cover;
     height: 400px;
     width: 400px;
@@ -81,6 +107,14 @@ h1, h2, h4, p {
     margin: 40 auto 20px;
 }
 
-a {
+who {
+    color: white;
+}
+
+why {
+    color: white;
+}
+
+what {
     color: white;
 }
